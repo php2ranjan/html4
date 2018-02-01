@@ -1,0 +1,77 @@
+/* CSS Document */
+body{ margin:0px; background-color:#999900; font-family:Arial, Helvetica, sans-serif; font-size:15px;}
+
+.main{ width:100%;}
+
+.wrapper{ width:1200px; background-color:#FFFFFF; margin:20px auto; overflow:hidden;
+border:1px solid #333333;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+/*HEADER START*/
+
+.header-mn{ width:1200px; height:130px;}
+.logo h1{ width:350px; height:120px; float:left; margin:20px 0 0 0;}
+
+.header-inr-rit{ width:350px; height:85px; float:right; padding-top:35px;}
+.email-bx{ width:350px; height:30px; }
+.mob-bx{ width:350px; height:30px; }
+.eml-lnk{ color:#CC3300; text-decoration:none;}
+.eml-lnk:hover{ color:#333333; text-decoration:none; text-decoration:underline;}
+
+/*HEADER END*/
+
+/*MENU START*/
+
+.menu-mn{ width:1200px; height:45px; background-color:#333333;}
+.mnu-lst ul{ margin:0px;}
+.mnu-lst li{ list-style:none; float:left; line-height:45px;}
+.mnu-lst li a{ color:#FFFFFF; text-decoration:none; padding:0 15px;}
+.mnu-lst li a:hover{ color:#FFFFFF; text-decoration:none; padding:0 15px; background-color:#CC3300; display:block;}
+
+/*MENU END*/
+
+/*SLIDER START*/
+
+.slider-mn{ width:1190px; margin:5px; overflow:hidden;}
+.slider-lft{ width:850px; float:left;}
+.slider-rit{ width:328px; float:right;}
+.slider-rit h2{ font-size:18px; font-weight:normal; background-color:#990000; color:#FFFFFF; line-height:40px; margin:0px; text-align:center; text-transform:uppercase;}
+
+/*SLIDER END*/
+
+/*CONTANT AREA*/
+
+.contant-area{ width:1190px; overflow:hidden; margin:5px; padding-bottom:25px;}
+
+.cont-lft-lnks{ width:300px; float:left;}
+.cont-lft-lnks h3{ font-size:18px; font-weight:normal; background-color:#990000; color:#FFFFFF; line-height:40px; margin:0px; text-align:center; text-transform:uppercase;}
+.mjr-lnk li{ list-style:url(../images/service-arrow.png); line-height:45px; border-bottom:1px dotted #000;}
+.mjr-lnk li:last-child{ border:0px;}
+.mjr-lnk li a{ color:#990000; text-decoration:none;}
+.mjr-lnk li a:hover{ color:#000; text-decoration:none;}
+
+.cont-rit{ width:800px; float:right;}
+.txt{ line-height:23px; font-size:16px;}
+
+.read-lnk{ color:#990000; text-decoration:none; font-weight:bold; padding-left:690px;}
+.read-lnk:hover{ color:#000; text-decoration:underline; font-weight:bold; padding-left:690px;}
+
+/*CONTANT END*/
+
+/*FOOTER START*/
+
+.footer{ width:1200px; height:50px; background-color:#333333; color:#fff;  font-size:12px;}
+
+.fot-lft{ width:600px; line-height:50px; float:left; margin-left:40px;}
+
+.fot-rit{ width:420px; line-height:50px; float:right;}
+
+.fot-rit ul{ margin:0px;}
+.fot-rit ul li{ list-style-type:none; float:left;}
+.fot-rit ul li a{ color:#fff; text-decoration:none; padding:0 15px;}
+.fot-rit ul li a:hover{ color:#F5ADAD; text-decoration:none; padding:0 15px;}
+
+/*FOOTER END*/
